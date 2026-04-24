@@ -1,0 +1,1124 @@
+[
+  {
+    "id": "backend-engineer-1-01",
+    "name": "Sarah Chen",
+    "title": "Senior Backend Engineer",
+    "years_experience": 8,
+    "skills": [
+      "Go",
+      "Kubernetes",
+      "Docker",
+      "PostgreSQL",
+      "gRPC",
+      "AWS"
+    ],
+    "bio": "Sarah has spent the last 8 years building scalable microservices architectures at leading tech companies. She currently leads the platform infrastructure team, focusing on service mesh implementation and distributed systems optimization.",
+    "location": "San Francisco, CA",
+    "current_company": "Stripe",
+    "life_state": "happy_not_looking"
+  },
+  {
+    "id": "backend-engineer-1-02",
+    "name": "Marcus Johnson",
+    "title": "Backend Engineer",
+    "years_experience": 5,
+    "skills": [
+      "Python",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "REST APIs",
+      "Terraform"
+    ],
+    "bio": "Marcus transitioned from data engineering to backend development three years ago and has thrived in the role. He specializes in building high-performance APIs and database optimization at a fast-growing fintech startup.",
+    "location": "New York, NY",
+    "current_company": "Plaid",
+    "life_state": "happy_not_looking"
+  },
+  {
+    "id": "backend-engineer-1-03",
+    "name": "Priya Sharma",
+    "title": "Staff Backend Engineer",
+    "years_experience": 12,
+    "skills": [
+      "Go",
+      "Python",
+      "Kubernetes",
+      "PostgreSQL",
+      "Redis",
+      "AWS",
+      "Terraform",
+      "gRPC"
+    ],
+    "bio": "Priya has over a decade of experience architecting backend systems for massive scale, having worked at both Google and Amazon. She currently drives technical strategy for the core payments platform, handling billions of transactions annually.",
+    "location": "Seattle, WA",
+    "current_company": "Amazon",
+    "life_state": "happy_not_looking"
+  },
+  {
+    "id": "backend-engineer-1-04",
+    "name": "Alex Kowalski",
+    "title": "Backend Engineer II",
+    "years_experience": 4,
+    "skills": [
+      "Python",
+      "Docker",
+      "PostgreSQL",
+      "REST APIs",
+      "Redis",
+      "AWS"
+    ],
+    "bio": "Alex started his career in web development before specializing in backend systems at a healthcare tech company. He's been exploring opportunities to work on more distributed systems and cloud-native architectures.",
+    "location": "Austin, TX",
+    "current_company": "Oscar Health",
+    "life_state": "passive_open"
+  },
+  {
+    "id": "backend-engineer-1-05",
+    "name": "Yuki Tanaka",
+    "title": "Senior Backend Engineer",
+    "years_experience": 9,
+    "skills": [
+      "Go",
+      "Kubernetes",
+      "Docker",
+      "gRPC",
+      "PostgreSQL",
+      "Terraform",
+      "AWS"
+    ],
+    "bio": "Yuki has deep expertise in building event-driven architectures and real-time data processing systems. While currently content at her role, she's curious about opportunities in the AI/ML infrastructure space.",
+    "location": "Remote (Tokyo, Japan)",
+    "current_company": "Mercari",
+    "life_state": "passive_open"
+  },
+  {
+    "id": "backend-engineer-1-06",
+    "name": "Diego Rodriguez",
+    "title": "Backend Engineer",
+    "years_experience": 6,
+    "skills": [
+      "Python",
+      "Go",
+      "Redis",
+      "PostgreSQL",
+      "REST APIs",
+      "Docker"
+    ],
+    "bio": "Diego has been building backend services for e-commerce platforms for six years, with a focus on inventory management and order processing systems. He's open to exploring roles with more emphasis on infrastructure and DevOps practices.",
+    "location": "Remote (Barcelona, Spain)",
+    "current_company": "Shopify",
+    "life_state": "passive_open"
+  },
+  {
+    "id": "backend-engineer-1-07",
+    "name": "Emily Wang",
+    "title": "Backend Engineer",
+    "years_experience": 3,
+    "skills": [
+      "Python",
+      "PostgreSQL",
+      "Docker",
+      "REST APIs",
+      "Redis"
+    ],
+    "bio": "Emily recently completed her master's in computer science and has been working at a startup for two years. She's actively seeking opportunities at larger tech companies where she can learn from experienced engineers and work on high-scale systems.",
+    "location": "Boston, MA",
+    "current_company": "Toast",
+    "life_state": "actively_looking"
+  },
+  {
+    "id": "backend-engineer-1-08",
+    "name": "Jamal Williams",
+    "title": "Senior Backend Engineer",
+    "years_experience": 10,
+    "skills": [
+      "Go",
+      "Kubernetes",
+      "Docker",
+      "gRPC",
+      "PostgreSQL",
+      "AWS",
+      "Terraform"
+    ],
+    "bio": "Jamal has a decade of experience across various domains including fintech, adtech, and enterprise SaaS. He's currently seeking his next challenge where he can leverage his expertise in building highly available distributed systems.",
+    "location": "Chicago, IL",
+    "current_company": "Brex",
+    "life_state": "actively_looking"
+  },
+  {
+    "id": "backend-engineer-1-09",
+    "name": "Aisha Okonkwo",
+    "title": "Backend Engineer",
+    "years_experience": 7,
+    "skills": [
+      "Python",
+      "Go",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "REST APIs",
+      "AWS"
+    ],
+    "bio": "Aisha spent seven years building backend systems for social media platforms, specializing in content delivery and caching strategies. She was recently affected by layoffs and is looking for her next opportunity to continue building impactful products.",
+    "location": "San Francisco, CA",
+    "current_company": "Meta",
+    "life_state": "just_laid_off"
+  },
+  {
+    "id": "backend-engineer-1-10",
+    "name": "Liam O'Brien",
+    "title": "Staff Backend Engineer",
+    "years_experience": 15,
+    "skills": [
+      "Go",
+      "Python",
+      "Kubernetes",
+      "PostgreSQL",
+      "gRPC",
+      "Redis",
+      "AWS",
+      "Terraform"
+    ],
+    "bio": "Liam is a seasoned backend engineer with 15 years of experience, currently leading architecture for cloud infrastructure services. He's entertaining offers but would require a compelling opportunity with significant impact and leadership scope to make a move.",
+    "location": "Denver, CO",
+    "current_company": "Netflix",
+    "life_state": "counter_offer_zone"
+  },
+  {
+    "id": "frontend-engineer-2-01",
+    "name": "Maya Patel",
+    "title": "Senior Frontend Engineer",
+    "years_experience": 8,
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "GraphQL",
+      "Jest",
+      "Webpack"
+    ],
+    "bio": "Maya has spent the last 5 years building scalable e-commerce platforms at Meta, specializing in performance optimization and accessibility. She leads a team of frontend engineers and mentors junior developers in modern React patterns.",
+    "location": "Menlo Park, CA",
+    "current_company": "Meta",
+    "life_state": "happy_not_looking"
+  },
+  {
+    "id": "frontend-engineer-2-02",
+    "name": "Lucas Bergström",
+    "title": "Frontend Engineer",
+    "years_experience": 5,
+    "skills": [
+      "React",
+      "TypeScript",
+      "CSS",
+      "Storybook",
+      "Jest",
+      "Figma",
+      "Webpack"
+    ],
+    "bio": "Lucas joined Spotify's design systems team two years ago after working at a Stockholm-based fintech startup. He specializes in building reusable component libraries and ensuring design-development consistency.",
+    "location": "Stockholm, Sweden",
+    "current_company": "Spotify",
+    "life_state": "happy_not_looking"
+  },
+  {
+    "id": "frontend-engineer-2-03",
+    "name": "Kenji Tanaka",
+    "title": "Lead Frontend Developer",
+    "years_experience": 12,
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "GraphQL",
+      "Webpack",
+      "Jest",
+      "Storybook"
+    ],
+    "bio": "Kenji has been with Shopify for 7 years, progressing from mid-level engineer to technical lead. He architects frontend solutions for enterprise merchants and has contributed to several open-source React projects.",
+    "location": "Toronto, Canada",
+    "current_company": "Shopify",
+    "life_state": "happy_not_looking"
+  },
+  {
+    "id": "frontend-engineer-2-04",
+    "name": "Amara Okafor",
+    "title": "Frontend Engineer",
+    "years_experience": 4,
+    "skills": [
+      "React",
+      "TypeScript",
+      "CSS",
+      "Jest",
+      "Figma"
+    ],
+    "bio": "Amara specializes in creating intuitive user interfaces for healthcare applications at a growing health-tech startup. She has a background in design and transitioned to engineering three years ago, bringing a unique perspective to product development.",
+    "location": "Austin, TX",
+    "current_company": "Devoted Health",
+    "life_state": "passive_open"
+  },
+  {
+    "id": "frontend-engineer-2-05",
+    "name": "Sofia Romero",
+    "title": "Senior Frontend Engineer",
+    "years_experience": 9,
+    "skills": [
+      "Vue.js",
+      "TypeScript",
+      "Webpack",
+      "CSS",
+      "Jest",
+      "Storybook",
+      "Figma"
+    ],
+    "bio": "Sofia has been building rich interactive dashboards for GitLab's DevOps platform for the past 4 years. Prior to GitLab, she worked at several European startups where she honed her expertise in Vue.js and component architecture.",
+    "location": "Remote (Barcelona, Spain)",
+    "current_company": "GitLab",
+    "life_state": "passive_open"
+  },
+  {
+    "id": "frontend-engineer-2-06",
+    "name": "Marcus Chen",
+    "title": "Frontend Engineer",
+    "years_experience": 6,
+    "skills": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "GraphQL",
+      "CSS",
+      "Jest"
+    ],
+    "bio": "Marcus works on Airbnb's host-facing products, focusing on improving the booking and listing management experience. He's passionate about web performance and has reduced page load times by 40% across key user flows.",
+    "location": "San Francisco, CA",
+    "current_company": "Airbnb",
+    "life_state": "passive_open"
+  },
+  {
+    "id": "frontend-engineer-2-07",
+    "name": "Priya Sharma",
+    "title": "Frontend Developer",
+    "years_experience": 3,
+    "skills": [
+      "React",
+      "TypeScript",
+      "CSS",
+      "Jest",
+      "Webpack"
+    ],
+    "bio": "Priya recently completed a successful project modernizing legacy systems at a mid-size consulting firm. She's now seeking opportunities to work on consumer-facing products at a company with stronger engineering culture and mentorship.",
+    "location": "Chicago, IL",
+    "current_company": "Deloitte Digital",
+    "life_state": "actively_looking"
+  },
+  {
+    "id": "frontend-engineer-2-08",
+    "name": "Dmitri Volkov",
+    "title": "Senior Frontend Engineer",
+    "years_experience": 10,
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "GraphQL",
+      "Storybook",
+      "Jest",
+      "CSS",
+      "Figma"
+    ],
+    "bio": "Dmitri spent the last decade building fintech products and is now exploring new opportunities in different industries. He has deep expertise in complex state management, real-time data visualization, and micro-frontend architectures.",
+    "location": "New York, NY",
+    "current_company": "Stripe",
+    "life_state": "actively_looking"
+  },
+  {
+    "id": "frontend-engineer-2-09",
+    "name": "Jasmine Wu",
+    "title": "Frontend Engineer",
+    "years_experience": 7,
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "CSS",
+      "Jest",
+      "Storybook"
+    ],
+    "bio": "Jasmine was recently affected by workforce reductions at her startup after 3 years building their mobile-responsive web platform. She brings strong skills in React performance optimization and has experience scaling applications from MVP to millions of users.",
+    "location": "Seattle, WA",
+    "current_company": "Convoy (laid off)",
+    "life_state": "just_laid_off"
+  },
+  {
+    "id": "frontend-engineer-2-10",
+    "name": "Ahmed Hassan",
+    "title": "Staff Frontend Engineer",
+    "years_experience": 15,
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "GraphQL",
+      "Webpack",
+      "Jest",
+      "Storybook",
+      "CSS"
+    ],
+    "bio": "Ahmed is a frontend architecture specialist at Netflix with deep expertise in streaming video interfaces and offline-first applications. He's currently in conversations with several companies about principal-level roles but would consider the right staff+ opportunity at his current company.",
+    "location": "Los Gatos, CA",
+    "current_company": "Netflix",
+    "life_state": "counter_offer_zone"
+  },
+  {
+    "id": "fullstack-engineer-3-01",
+    "name": "Sarah Chen",
+    "title": "Senior Fullstack Engineer",
+    "years_experience": 8,
+    "skills": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "AWS",
+      "Docker",
+      "GraphQL"
+    ],
+    "bio": "Sarah has spent the last 8 years building scalable web applications, with her last 4 years at Google focusing on cloud infrastructure. She specializes in microservices architecture and has led multiple teams in delivering enterprise-grade solutions.",
+    "location": "San Francisco, CA",
+    "current_company": "Google",
+    "life_state": "happy_not_looking"
+  },
+  {
+    "id": "fullstack-engineer-3-02",
+    "name": "Marcus Johnson",
+    "title": "Fullstack Engineer",
+    "years_experience": 5,
+    "skills": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "MongoDB",
+      "Docker",
+      "CI/CD"
+    ],
+    "bio": "Marcus transitioned from backend development to fullstack three years ago and currently works on real-time collaboration tools. He has a strong focus on developer experience and building robust testing frameworks.",
+    "location": "Austin, TX",
+    "current_company": "Atlassian",
+    "life_state": "happy_not_looking"
+  },
+  {
+    "id": "fullstack-engineer-3-03",
+    "name": "Priya Sharma",
+    "title": "Lead Fullstack Engineer",
+    "years_experience": 11,
+    "skills": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Redis",
+      "AWS",
+      "Docker",
+      "CI/CD"
+    ],
+    "bio": "Priya has over a decade of experience in fintech, currently leading the platform engineering team at Stripe. She's an expert in payment systems and has architected solutions processing billions of dollars in transactions.",
+    "location": "New York, NY",
+    "current_company": "Stripe",
+    "life_state": "happy_not_looking"
+  },
+  {
+    "id": "fullstack-engineer-3-04",
+    "name": "Javier Rodriguez",
+    "title": "Fullstack Developer",
+    "years_experience": 4,
+    "skills": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "GraphQL",
+      "Docker"
+    ],
+    "bio": "Javier started his career building e-commerce platforms and now works on customer-facing products at a growing SaaS startup. He's passionate about performance optimization and user experience design.",
+    "location": "Remote - Mexico City, Mexico",
+    "current_company": "Notion",
+    "life_state": "passive_open"
+  },
+  {
+    "id": "fullstack-engineer-3-05",
+    "name": "Emily O'Connor",
+    "title": "Senior Fullstack Engineer",
+    "years_experience": 7,
+    "skills": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "MongoDB",
+      "AWS",
+      "Redis",
+      "CI/CD"
+    ],
+    "bio": "Emily has extensive experience in healthtech, building HIPAA-compliant applications that serve millions of patients. She's currently exploring opportunities to work on more cutting-edge technology stacks and AI integration.",
+    "location": "Boston, MA",
+    "current_company": "Teladoc Health",
+    "life_state": "passive_open"
+  },
+  {
+    "id": "fullstack-engineer-3-06",
+    "name": "Dmitri Volkov",
+    "title": "Fullstack Engineer",
+    "years_experience": 6,
+    "skills": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "GraphQL",
+      "Docker",
+      "AWS"
+    ],
+    "bio": "Dmitri specializes in building data-intensive applications with complex visualizations and real-time updates. He's been with his current company for three years but is open to new challenges in the developer tools space.",
+    "location": "Seattle, WA",
+    "current_company": "Datadog",
+    "life_state": "passive_open"
+  },
+  {
+    "id": "fullstack-engineer-3-07",
+    "name": "Aisha Patel",
+    "title": "Fullstack Engineer",
+    "years_experience": 3,
+    "skills": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "MongoDB",
+      "Docker"
+    ],
+    "bio": "Aisha recently completed a bootcamp followed by two years of professional experience building mobile-first web applications. She's actively seeking a role at a mission-driven company where she can grow her skills in cloud architecture.",
+    "location": "Chicago, IL",
+    "current_company": "Shopify",
+    "life_state": "actively_looking"
+  },
+  {
+    "id": "fullstack-engineer-3-08",
+    "name": "Thomas Andersen",
+    "title": "Fullstack Software Engineer",
+    "years_experience": 9,
+    "skills": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Redis",
+      "GraphQL",
+      "CI/CD",
+      "AWS"
+    ],
+    "bio": "Thomas has nearly a decade of experience across various industries including gaming, social media, and enterprise software. He's looking for a senior or lead position where he can mentor junior developers and drive technical strategy.",
+    "location": "Remote - Copenhagen, Denmark",
+    "current_company": "Unity Technologies",
+    "life_state": "actively_looking"
+  },
+  {
+    "id": "fullstack-engineer-3-09",
+    "name": "Kenji Tanaka",
+    "title": "Mid-level Fullstack Engineer",
+    "years_experience": 5,
+    "skills": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Docker",
+      "AWS",
+      "CI/CD"
+    ],
+    "bio": "Kenji has worked at two startups building marketplace platforms from the ground up. He's seeking a new opportunity to join a well-funded startup where he can have significant ownership over product features.",
+    "location": "Los Angeles, CA",
+    "current_company": "DoorDash",
+    "life_state": "actively_looking"
+  },
+  {
+    "id": "fullstack-engineer-3-10",
+    "name": "Isabella Martinez",
+    "title": "Senior Fullstack Engineer",
+    "years_experience": 12,
+    "skills": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "Docker",
+      "GraphQL"
+    ],
+    "bio": "Isabella was a principal engineer at a logistics tech company that recently underwent restructuring and layoffs. She has deep expertise in building distributed systems and is immediately available for new opportunities.",
+    "location": "Miami, FL",
+    "current_company": "Flexport",
+    "life_state": "just_laid_off"
+  },
+  {
+    "id": "ml-engineer-4-01",
+    "name": "Priya Sharma",
+    "title": "Senior ML Engineer",
+    "years_experience": 8,
+    "skills": [
+      "PyTorch",
+      "Python",
+      "CUDA",
+      "MLflow",
+      "Kubernetes",
+      "FastAPI"
+    ],
+    "bio": "Priya has spent the last 8 years building production ML systems at major tech companies, specializing in computer vision and deep learning optimization. She currently leads a team focused on model deployment and monitoring infrastructure at Google.",
+    "location": "Mountain View, CA",
+    "current_company": "Google",
+    "life_state": "happy_not_looking"
+  },
+  {
+    "id": "ml-engineer-4-02",
+    "name": "Marcus Chen",
+    "title": "ML Engineer",
+    "years_experience": 5,
+    "skills": [
+      "PyTorch",
+      "Python",
+      "LLM fine-tuning",
+      "HuggingFace",
+      "vector databases",
+      "FastAPI",
+      "MLflow"
+    ],
+    "bio": "Marcus transitioned from software engineering to ML three years ago and has quickly become an expert in NLP and large language models. He currently builds conversational AI systems for enterprise customers at Microsoft.",
+    "location": "Seattle, WA",
+    "current_company": "Microsoft",
+    "life_state": "happy_not_looking"
+  },
+  {
+    "id": "ml-engineer-4-03",
+    "name": "Sofia Andersson",
+    "title": "Staff ML Engineer",
+    "years_experience": 12,
+    "skills": [
+      "PyTorch",
+      "Python",
+      "CUDA",
+      "Kubernetes",
+      "MLflow",
+      "FastAPI",
+      "LLM fine-tuning",
+      "RAG"
+    ],
+    "bio": "Sofia has over a decade of experience in ML infrastructure and has architected systems that serve millions of users daily. She currently drives ML platform strategy at Meta, focusing on enabling researchers to scale their experiments efficiently.",
+    "location": "London, UK",
+    "current_company": "Meta",
+    "life_state": "happy_not_looking"
+  },
+  {
+    "id": "ml-engineer-4-04",
+    "name": "Jamal Williams",
+    "title": "Senior ML Engineer",
+    "years_experience": 7,
+    "skills": [
+      "PyTorch",
+      "Python",
+      "LLM fine-tuning",
+      "RAG",
+      "vector databases",
+      "HuggingFace"
+    ],
+    "bio": "Jamal specializes in building retrieval-augmented generation systems and has published research on efficient fine-tuning techniques. He's currently working on document intelligence products at a Series C startup but is open to exciting opportunities.",
+    "location": "Austin, TX",
+    "current_company": "Docugami",
+    "life_state": "passive_open"
+  },
+  {
+    "id": "ml-engineer-4-05",
+    "name": "Elena Popescu",
+    "title": "ML Engineer",
+    "years_experience": 4,
+    "skills": [
+      "Python",
+      "PyTorch",
+      "FastAPI",
+      "Kubernetes",
+      "MLflow",
+      "vector databases"
+    ],
+    "bio": "Elena started her career in data science before pivoting to ML engineering, bringing a strong analytical mindset to model deployment. She currently maintains production ML pipelines at Shopify and enjoys mentoring junior engineers.",
+    "location": "Toronto, Canada",
+    "current_company": "Shopify",
+    "life_state": "passive_open"
+  },
+  {
+    "id": "ml-engineer-4-06",
+    "name": "Kenji Tanaka",
+    "title": "Principal ML Engineer",
+    "years_experience": 15,
+    "skills": [
+      "PyTorch",
+      "Python",
+      "CUDA",
+      "Kubernetes",
+      "MLflow",
+      "HuggingFace",
+      "LLM fine-tuning"
+    ],
+    "bio": "Kenji is a veteran in the ML field with deep expertise in GPU optimization and distributed training systems. He leads the ML infrastructure team at Netflix, though he's always interested in hearing about challenging technical problems.",
+    "location": "Los Gatos, CA",
+    "current_company": "Netflix",
+    "life_state": "passive_open"
+  },
+  {
+    "id": "ml-engineer-4-07",
+    "name": "Aisha Mohammed",
+    "title": "ML Engineer",
+    "years_experience": 3,
+    "skills": [
+      "Python",
+      "PyTorch",
+      "LLM fine-tuning",
+      "HuggingFace",
+      "RAG",
+      "vector databases",
+      "FastAPI"
+    ],
+    "bio": "Aisha recently completed her PhD in Natural Language Processing and has been working on LLM applications in production. She's actively seeking new opportunities to work on cutting-edge generative AI products after her startup's recent pivot.",
+    "location": "Remote (US)",
+    "current_company": "Stealth AI Startup",
+    "life_state": "actively_looking"
+  },
+  {
+    "id": "ml-engineer-4-08",
+    "name": "Diego Martinez",
+    "title": "Senior ML Engineer",
+    "years_experience": 9,
+    "skills": [
+      "PyTorch",
+      "Python",
+      "CUDA",
+      "Kubernetes",
+      "MLflow",
+      "FastAPI",
+      "LLM fine-tuning"
+    ],
+    "bio": "Diego has extensive experience building recommendation systems and ranking models at scale for e-commerce platforms. He's currently exploring new roles that focus more on generative AI and LLM applications.",
+    "location": "San Francisco, CA",
+    "current_company": "Etsy",
+    "life_state": "actively_looking"
+  },
+  {
+    "id": "ml-engineer-4-09",
+    "name": "Yuki Nakamura",
+    "title": "ML Engineer",
+    "years_experience": 6,
+    "skills": [
+      "Python",
+      "PyTorch",
+      "HuggingFace",
+      "vector databases",
+      "RAG",
+      "FastAPI",
+      "Kubernetes"
+    ],
+    "bio": "Yuki specialized in building search and recommendation systems using modern embedding techniques and vector databases. She was recently impacted by layoffs at her fintech company and is looking for her next role in ML infrastructure or LLM applications.",
+    "location": "New York, NY",
+    "current_company": "Brex",
+    "life_state": "just_laid_off"
+  },
+  {
+    "id": "ml-engineer-4-10",
+    "name": "Raj Patel",
+    "title": "Senior ML Engineer",
+    "years_experience": 10,
+    "skills": [
+      "PyTorch",
+      "Python",
+      "LLM fine-tuning",
+      "RAG",
+      "vector databases",
+      "HuggingFace",
+      "MLflow",
+      "Kubernetes"
+    ],
+    "bio": "Raj has a strong track record of shipping ML products from ideation to production at Amazon. He's currently in discussions with his leadership about a promotion and role expansion, making him particularly selective about external opportunities.",
+    "location": "Boston, MA",
+    "current_company": "Amazon",
+    "life_state": "counter_offer_zone"
+  },
+  {
+    "id": "data-scientist-5-01",
+    "name": "Sarah Chen",
+    "title": "Senior Data Scientist",
+    "years_experience": 8,
+    "skills": [
+      "Python",
+      "SQL",
+      "Spark",
+      "scikit-learn",
+      "A/B testing",
+      "Tableau",
+      "statistics"
+    ],
+    "bio": "Sarah has spent the last 8 years building predictive models and experimentation platforms at top tech companies. She currently leads the personalization data science team, focusing on recommendation systems and causal inference.",
+    "location": "San Francisco, CA",
+    "current_company": "Netflix",
+    "life_state": "happy_not_looking"
+  },
+  {
+    "id": "data-scientist-5-02",
+    "name": "Marcus Johnson",
+    "title": "Data Scientist",
+    "years_experience": 5,
+    "skills": [
+      "Python",
+      "SQL",
+      "pandas",
+      "scikit-learn",
+      "A/B testing",
+      "statistics"
+    ],
+    "bio": "Marcus transitioned from a PhD in biostatistics to industry data science five years ago. He specializes in designing and analyzing experiments for product growth teams at a leading fintech company.",
+    "location": "New York, NY",
+    "current_company": "Stripe",
+    "life_state": "happy_not_looking"
+  },
+  {
+    "id": "data-scientist-5-03",
+    "name": "Priya Kapoor",
+    "title": "Staff Data Scientist",
+    "years_experience": 12,
+    "skills": [
+      "Python",
+      "SQL",
+      "Spark",
+      "Airflow",
+      "dbt",
+      "A/B testing",
+      "pandas",
+      "statistics"
+    ],
+    "bio": "Priya has over a decade of experience building scalable data pipelines and ML systems across e-commerce and logistics. She currently architects data infrastructure and mentors junior data scientists while driving key business metric improvements.",
+    "location": "Seattle, WA",
+    "current_company": "Amazon",
+    "life_state": "happy_not_looking"
+  },
+  {
+    "id": "data-scientist-5-04",
+    "name": "Javier Rodriguez",
+    "title": "Senior Data Scientist",
+    "years_experience": 7,
+    "skills": [
+      "Python",
+      "SQL",
+      "Tableau",
+      "pandas",
+      "scikit-learn",
+      "A/B testing"
+    ],
+    "bio": "Javier has built data products for both B2B and B2C companies, with deep expertise in customer analytics. He's currently leading pricing optimization initiatives but is open to new challenges in the ML infrastructure space.",
+    "location": "Austin, TX",
+    "current_company": "Oracle",
+    "life_state": "passive_open"
+  },
+  {
+    "id": "data-scientist-5-05",
+    "name": "Emma Lindström",
+    "title": "Data Scientist",
+    "years_experience": 4,
+    "skills": [
+      "Python",
+      "SQL",
+      "dbt",
+      "Airflow",
+      "pandas",
+      "Tableau",
+      "statistics"
+    ],
+    "bio": "Emma joined the tech industry after completing her master's in computational statistics. She works on marketing analytics and attribution modeling, though she's curious about opportunities in healthcare or climate tech.",
+    "location": "Remote, Stockholm",
+    "current_company": "Spotify",
+    "life_state": "passive_open"
+  },
+  {
+    "id": "data-scientist-5-06",
+    "name": "David Kim",
+    "title": "Lead Data Scientist",
+    "years_experience": 10,
+    "skills": [
+      "Python",
+      "SQL",
+      "Spark",
+      "Airflow",
+      "scikit-learn",
+      "A/B testing",
+      "pandas",
+      "statistics"
+    ],
+    "bio": "David has a strong background in both engineering and statistics, having built ML platforms from the ground up. He currently manages a team of five data scientists working on fraud detection, though he's quietly exploring senior leadership roles elsewhere.",
+    "location": "Boston, MA",
+    "current_company": "PayPal",
+    "life_state": "passive_open"
+  },
+  {
+    "id": "data-scientist-5-07",
+    "name": "Amara Okafor",
+    "title": "Data Scientist",
+    "years_experience": 3,
+    "skills": [
+      "Python",
+      "SQL",
+      "pandas",
+      "scikit-learn",
+      "Tableau",
+      "statistics"
+    ],
+    "bio": "Amara completed a data science bootcamp after working as a financial analyst for two years. She's been working on customer segmentation and churn prediction at a Series B startup that recently downsized her team.",
+    "location": "Chicago, IL",
+    "current_company": "DataFlow Analytics",
+    "life_state": "actively_looking"
+  },
+  {
+    "id": "data-scientist-5-08",
+    "name": "Liam O'Brien",
+    "title": "Senior Data Scientist",
+    "years_experience": 6,
+    "skills": [
+      "Python",
+      "SQL",
+      "Spark",
+      "dbt",
+      "scikit-learn",
+      "A/B testing",
+      "Airflow"
+    ],
+    "bio": "Liam has extensive experience in ad tech and marketing analytics, building models that directly impact revenue. He's actively seeking a role with more focus on machine learning engineering and production systems.",
+    "location": "Denver, CO",
+    "current_company": "MediaMath",
+    "life_state": "actively_looking"
+  },
+  {
+    "id": "data-scientist-5-09",
+    "name": "Yuki Tanaka",
+    "title": "Data Scientist",
+    "years_experience": 5,
+    "skills": [
+      "Python",
+      "SQL",
+      "pandas",
+      "scikit-learn",
+      "Tableau",
+      "A/B testing",
+      "statistics"
+    ],
+    "bio": "Yuki specialized in natural language processing during her master's program and has applied those skills to search and recommendation problems. She's looking for a new opportunity where she can work on cutting-edge NLP applications with larger datasets.",
+    "location": "Remote, Tokyo",
+    "current_company": "Rakuten",
+    "life_state": "actively_looking"
+  },
+  {
+    "id": "data-scientist-5-10",
+    "name": "Carlos Mendoza",
+    "title": "Senior Data Scientist",
+    "years_experience": 9,
+    "skills": [
+      "Python",
+      "SQL",
+      "Spark",
+      "Airflow",
+      "pandas",
+      "scikit-learn",
+      "A/B testing",
+      "statistics"
+    ],
+    "bio": "Carlos has built and scaled data science functions at multiple high-growth companies, with expertise in experimentation and causal inference. He was recently impacted by layoffs at his Series C startup and is eager to find his next opportunity quickly.",
+    "location": "San Diego, CA",
+    "current_company": "VentureMetrics (laid off)",
+    "life_state": "just_laid_off"
+  },
+  {
+    "id": "product-manager-6-01",
+    "name": "Sarah Chen",
+    "title": "Senior Product Manager",
+    "years_experience": 8,
+    "skills": [
+      "Roadmap planning",
+      "Agile",
+      "Stakeholder management",
+      "A/B testing",
+      "SQL",
+      "JIRA",
+      "OKRs"
+    ],
+    "bio": "Sarah has spent the last 8 years building consumer-facing products at major tech companies, with a focus on growth and engagement. She currently leads the discovery team at Meta, driving experimentation strategies that have improved user retention by 23%.",
+    "location": "Menlo Park, CA",
+    "current_company": "Meta",
+    "life_state": "happy_not_looking"
+  },
+  {
+    "id": "product-manager-6-02",
+    "name": "James Okonkwo",
+    "title": "Product Manager",
+    "years_experience": 5,
+    "skills": [
+      "Roadmap planning",
+      "Agile",
+      "user research",
+      "Figma",
+      "JIRA",
+      "PRD writing"
+    ],
+    "bio": "James transitioned into product management from software engineering and brings a strong technical foundation to his work. He currently manages the checkout experience at Shopify, collaborating closely with design and engineering to optimize conversion rates.",
+    "location": "Toronto, Canada",
+    "current_company": "Shopify",
+    "life_state": "happy_not_looking"
+  },
+  {
+    "id": "product-manager-6-03",
+    "name": "Priya Patel",
+    "title": "Lead Product Manager",
+    "years_experience": 11,
+    "skills": [
+      "Roadmap planning",
+      "Stakeholder management",
+      "A/B testing",
+      "SQL",
+      "user research",
+      "OKRs",
+      "PRD writing"
+    ],
+    "bio": "Priya has built her career leading B2B SaaS products from conception to scale across multiple industries. She currently oversees the analytics platform at Salesforce, managing a team of 3 PMs and partnering with enterprise clients to shape the product vision.",
+    "location": "San Francisco, CA",
+    "current_company": "Salesforce",
+    "life_state": "happy_not_looking"
+  },
+  {
+    "id": "product-manager-6-04",
+    "name": "Marcus Thompson",
+    "title": "Product Manager",
+    "years_experience": 4,
+    "skills": [
+      "Agile",
+      "user research",
+      "Figma",
+      "JIRA",
+      "PRD writing",
+      "A/B testing"
+    ],
+    "bio": "Marcus started his product career at a healthcare startup and has developed expertise in regulated industries. Most recently at a mid-stage health tech company, he's now seeking opportunities to join a larger organization with more resources and mentorship.",
+    "location": "Austin, TX",
+    "current_company": "HealthTech Solutions",
+    "life_state": "actively_looking"
+  },
+  {
+    "id": "product-manager-6-05",
+    "name": "Yuki Tanaka",
+    "title": "Associate Product Manager",
+    "years_experience": 2,
+    "skills": [
+      "Agile",
+      "Figma",
+      "JIRA",
+      "user research",
+      "PRD writing"
+    ],
+    "bio": "Yuki joined the APM program at a fintech startup after completing her MBA and has quickly taken ownership of key features. She's looking to accelerate her growth by moving to a company with a more established product organization and senior mentors.",
+    "location": "New York, NY",
+    "current_company": "Stripe",
+    "life_state": "actively_looking"
+  },
+  {
+    "id": "product-manager-6-06",
+    "name": "Elena Rodriguez",
+    "title": "Senior Product Manager",
+    "years_experience": 9,
+    "skills": [
+      "Roadmap planning",
+      "Stakeholder management",
+      "SQL",
+      "A/B testing",
+      "OKRs",
+      "JIRA",
+      "user research"
+    ],
+    "bio": "Elena has spent nearly a decade building marketplace and platform products, with deep expertise in two-sided network effects. After three years at her current company, she's ready for a new challenge that offers greater scope and impact.",
+    "location": "Remote (Denver, CO)",
+    "current_company": "Airbnb",
+    "life_state": "actively_looking"
+  },
+  {
+    "id": "product-manager-6-07",
+    "name": "David Kim",
+    "title": "Product Manager",
+    "years_experience": 6,
+    "skills": [
+      "Roadmap planning",
+      "Agile",
+      "SQL",
+      "JIRA",
+      "A/B testing",
+      "PRD writing"
+    ],
+    "bio": "David was building AI-powered search features at a promising edtech startup before the company ran out of runway last month. He's a data-driven PM with strong analytical skills and is actively interviewing with several companies in the education and productivity space.",
+    "location": "Seattle, WA",
+    "current_company": "LearnForward (defunct)",
+    "life_state": "just_laid_off"
+  },
+  {
+    "id": "product-manager-6-08",
+    "name": "Amara Okafor",
+    "title": "Senior Product Manager",
+    "years_experience": 7,
+    "skills": [
+      "Roadmap planning",
+      "Stakeholder management",
+      "user research",
+      "Figma",
+      "OKRs",
+      "PRD writing",
+      "Agile"
+    ],
+    "bio": "Amara was leading the mobile payments product at a fintech unicorn that underwent significant layoffs two weeks ago. With her experience scaling products from 0 to millions of users, she's fielding multiple opportunities and looking for the right cultural fit.",
+    "location": "London, UK",
+    "current_company": "Revolut",
+    "life_state": "just_laid_off"
+  },
+  {
+    "id": "product-manager-6-09",
+    "name": "Carlos Mendoza",
+    "title": "Principal Product Manager",
+    "years_experience": 12,
+    "skills": [
+      "Roadmap planning",
+      "Stakeholder management",
+      "OKRs",
+      "SQL",
+      "A/B testing",
+      "user research",
+      "PRD writing",
+      "Agile"
+    ],
+    "bio": "Carlos has spent over a decade leading high-impact product initiatives at enterprise software companies, most recently driving platform strategy. He's currently in conversations with another company but is open to hearing competitive offers before making a final decision.",
+    "location": "Boston, MA",
+    "current_company": "HubSpot",
+    "life_state": "counter_offer_zone"
+  },
+  {
+    "id": "product-manager-6-10",
+    "name": "Lily Zhang",
+    "title": "Product Manager",
+    "years_experience": 5,
+    "skills": [
+      "Agile",
+      "Figma",
+      "JIRA",
+      "user research",
+      "A/B testing",
+      "PRD writing"
+    ],
+    "bio": "Lily has been developing her product skills in the streaming media space, focusing on personalization and recommendation systems. She recently received an attractive offer from a competitor and her current employer is preparing a counter-offer package to retain her.",
+    "location": "Los Angeles, CA",
+    "current_company": "Netflix",
+    "life_state": "counter_offer_zone"
+  }
+]
