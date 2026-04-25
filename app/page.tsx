@@ -1,65 +1,198 @@
-import Image from "next/image";
+'use client';
 
-export default function Home() {
+import { useState } from 'react';
+import { Search, GitMerge, MessageSquare, BarChart2 } from 'lucide-react';
+import { JDInput } from '@/components/jd-input';
+import { CandidateTable } from '@/components/candidate-table';
+import { CandidateDrawer } from '@/components/candidate-drawer';
+import { LoadingState } from '@/components/loading-state';
+import { EnrichedCandidate, ShortlistResponse } from '@/lib/types';
+
+// ── Feature strip ─────────────────────────────────────────────────────────
+const FEATURES = [
+  { icon: <GitMerge size={14} />, label: 'Parse JD',      desc: 'Extracts role, skills & seniority' },
+  { icon: <BarChart2 size={14} />, label: 'Score Fit',    desc: 'Ranks top 20 by skill match' },
+  { icon: <MessageSquare size={14} />, label: 'Gauge Interest', desc: 'Simulates outreach & scores engagement' },
+];
+
+// ── Empty state ───────────────────────────────────────────────────────────
+function EmptyState() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="flex flex-col items-center justify-center gap-8 py-16 animate-fade-in">
+      {/* Tagline */}
+      <div className="text-center space-y-2 max-w-sm">
+        <div className="flex items-center justify-center gap-2 text-[11px] font-semibold uppercase tracking-widest text-primary/60 mb-3">
+          <span className="h-px w-8 bg-primary/30" />
+          AI-Powered Recruiting
+          <span className="h-px w-8 bg-primary/30" />
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+        <h2 className="text-2xl font-bold tracking-tight text-foreground leading-tight">
+          Find engineers who fit the role
+          <span className="text-gradient-blue"> and want the job.</span>
+        </h2>
+        <p className="text-[13px] text-muted-foreground leading-relaxed">
+          Scores both skill match and genuine interest — then lets you decide what matters more.
+        </p>
+      </div>
+
+      {/* Feature cards */}
+      <div className="grid grid-cols-3 gap-3 w-full max-w-lg">
+        {FEATURES.map((f, i) => (
+          <div
+            key={f.label}
+            className="flex flex-col gap-2 rounded-md border border-border/60 bg-muted/20 p-3 animate-slide-up"
+            style={{ animationDelay: `${i * 60}ms` }}
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            <div className="flex items-center gap-2 text-primary/70">
+              {f.icon}
+              <span className="text-[11px] font-semibold">{f.label}</span>
+            </div>
+            <p className="text-[11px] text-muted-foreground leading-snug">{f.desc}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* Hint */}
+      <div className="flex items-center gap-2 text-[11px] text-muted-foreground/50">
+        <Search size={11} />
+        Paste a job description on the left to begin
+      </div>
+    </div>
+  );
+}
+
+// ── Error state ───────────────────────────────────────────────────────────
+function ErrorState({ message }: { message: string }) {
+  return (
+    <div className="flex flex-col items-center justify-center gap-3 py-16 animate-fade-in">
+      <div className="rounded-md border border-red-500/20 bg-red-500/10 px-4 py-3 text-center max-w-sm">
+        <p className="text-[12px] font-medium text-red-400">Pipeline error</p>
+        <p className="mt-1 text-[11px] text-red-400/70">{message}</p>
+      </div>
+    </div>
+  );
+}
+
+// ── Parsed JD summary ─────────────────────────────────────────────────────
+function ParsedJDSummary({ jd }: { jd: ShortlistResponse['parsedJD'] }) {
+  return (
+    <div className="rounded-md border border-border/60 bg-muted/20 p-4 space-y-2 animate-fade-in">
+      <p className="text-[10px] font-semibold uppercase tracking-widest text-muted-foreground">
+        Parsed JD
+      </p>
+      <div className="grid grid-cols-2 gap-x-4 gap-y-1.5 text-[12px]">
+        {[
+          ['Role',     jd.role],
+          ['Domain',   jd.domain],
+          ['Seniority',jd.seniority],
+          ['Min exp',  `${jd.min_years}+ yrs`],
+          ['Location', jd.location_flexibility],
+        ].map(([k, v]) => (
+          <div key={k} className="flex gap-1.5">
+            <span className="text-muted-foreground shrink-0">{k}:</span>
+            <span className="text-foreground/80 truncate">{v}</span>
+          </div>
+        ))}
+      </div>
+      <p className="text-[11px] text-muted-foreground pt-0.5">
+        <span className="text-foreground/50">Requires: </span>
+        {jd.required_skills.slice(0, 5).join(', ')}
+        {jd.required_skills.length > 5 && ` +${jd.required_skills.length - 5} more`}
+      </p>
+    </div>
+  );
+}
+
+// ── Page ──────────────────────────────────────────────────────────────────
+export default function Home() {
+  const [isLoading, setIsLoading]   = useState(false);
+  const [result,    setResult]      = useState<ShortlistResponse | null>(null);
+  const [selected,  setSelected]    = useState<EnrichedCandidate | null>(null);
+  const [drawerOpen,setDrawerOpen]  = useState(false);
+  const [matchWeight,setMatchWeight]= useState(0.6);
+  const [error,     setError]       = useState<string | null>(null);
+
+  async function handleSubmit(jdText: string) {
+    setIsLoading(true);
+    setError(null);
+    setResult(null);
+    try {
+      const res = await fetch('/api/shortlist', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ jdText, matchWeight }),
+      });
+      if (!res.ok) {
+        const body = await res.json();
+        throw new Error(body.error ?? 'Request failed');
+      }
+      setResult(await res.json());
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'Something went wrong');
+    } finally {
+      setIsLoading(false);
+    }
+  }
+
+  function handleSelect(c: EnrichedCandidate) {
+    setSelected(c);
+    setDrawerOpen(true);
+  }
+
+  const useMock = process.env.NODE_ENV !== 'production';
+
+  return (
+    <>
+      {/* Content starts below fixed navbar (h-11) */}
+      <main className="pt-11 min-h-screen flex flex-col">
+        <div className="mx-auto w-full max-w-7xl flex-1 px-4 py-5 sm:px-6">
+          <div className="grid grid-cols-1 gap-5 lg:grid-cols-[360px_1fr]">
+
+            {/* ── Left panel: JD input ── */}
+            <div className="flex flex-col gap-4">
+              <div className="rounded-md border border-border/60 bg-card p-4">
+                <JDInput onSubmit={handleSubmit} isLoading={isLoading} useMock={useMock} />
+              </div>
+
+              {result && <ParsedJDSummary jd={result.parsedJD} />}
+            </div>
+
+            {/* ── Right panel: results ── */}
+            <div className="min-h-80">
+              {isLoading ? (
+                <LoadingState />
+              ) : error ? (
+                <ErrorState message={error} />
+              ) : result ? (
+                <div className="animate-slide-up">
+                  <div className="mb-3 flex items-center justify-between">
+                    <p className="text-[11px] font-semibold uppercase tracking-widest text-muted-foreground">
+                      Top {result.candidates.length} candidates
+                    </p>
+                    <p className="text-[11px] text-muted-foreground/50">
+                      Click a row to inspect
+                    </p>
+                  </div>
+                  <CandidateTable
+                    candidates={result.candidates}
+                    matchWeight={matchWeight}
+                    onSelect={handleSelect}
+                    onWeightChange={setMatchWeight}
+                  />
+                </div>
+              ) : (
+                <EmptyState />
+              )}
+            </div>
+          </div>
         </div>
       </main>
-    </div>
+
+      <CandidateDrawer
+        candidate={selected}
+        open={drawerOpen}
+        onClose={() => setDrawerOpen(false)}
+      />
+    </>
   );
 }

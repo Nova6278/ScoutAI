@@ -28,7 +28,7 @@ export async function callClaude<T>(
   const cacheKey = JSON.stringify(params);
   // cached() returns the raw API response; callers extract content themselves
   return cached(cacheKey, () =>
-    getClient().messages.create(params) as Promise<T>
+    getClient().messages.create(params) as unknown as Promise<T>
   );
 }
 
