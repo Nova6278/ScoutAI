@@ -171,6 +171,6 @@ Built in one weekend for the Catalyst Hackathon. Architecture, scoring logic, pe
 
 ## Submission
 
-- 🌐 **Live URL** — [scoutai.vercel.app](#)
+- 🌐 **Live URL** — [scout-ai-flax.vercel.app](#)
 - 💻 **GitHub** — [github.com/Nova6278/ScoutAI](https://github.com/Nova6278/ScoutAI)
 - 🎥 **Demo Video** — [Loom](#)
