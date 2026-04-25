@@ -62,12 +62,19 @@ function EmptyState() {
 }
 
 // ── Error state ───────────────────────────────────────────────────────────
-function ErrorState({ message }: { message: string }) {
+function ErrorState({ message, onRetry }: { message: string; onRetry: () => void }) {
   return (
     <div className="flex flex-col items-center justify-center gap-3 py-16 animate-fade-in">
-      <div className="rounded-md border border-red-500/20 bg-red-500/10 px-4 py-3 text-center max-w-sm">
+      <div className="rounded-md border border-red-500/20 bg-red-500/10 px-4 py-4 text-center max-w-sm space-y-3">
         <p className="text-[12px] font-medium text-red-400">Pipeline error</p>
-        <p className="mt-1 text-[11px] text-red-400/70">{message}</p>
+        <p className="text-[11px] text-red-400/70">{message}</p>
+        <button
+          onClick={onRetry}
+          className="mt-1 inline-flex items-center gap-1.5 rounded border border-red-400/30 bg-red-400/10 px-3 py-1.5 text-[11px] font-medium text-red-300 transition-colors hover:bg-red-400/20"
+        >
+          <span>↺</span>
+          Retry same JD
+        </button>
       </div>
     </div>
   );
@@ -111,8 +118,10 @@ export default function Home() {
   const [drawerOpen,setDrawerOpen]  = useState(false);
   const [matchWeight,setMatchWeight]= useState(0.6);
   const [error,     setError]       = useState<string | null>(null);
+  const [lastJD,    setLastJD]      = useState('');
 
   async function handleSubmit(jdText: string) {
+    setLastJD(jdText);
     setIsLoading(true);
     setError(null);
     setResult(null);
@@ -162,7 +171,7 @@ export default function Home() {
               {isLoading ? (
                 <LoadingState />
               ) : error ? (
-                <ErrorState message={error} />
+                <ErrorState message={error} onRetry={() => handleSubmit(lastJD)} />
               ) : result ? (
                 <div className="animate-slide-up">
                   <div className="mb-3 flex items-center justify-between">
