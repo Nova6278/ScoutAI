@@ -2,8 +2,6 @@
 
 **AI-powered talent scouting that finds candidates who fit the role — and actually want to hear from you.**
 
-[Live Demo](https://scoutai.vercel.app) · [Demo Video](#) · [Catalyst Hackathon Submission](#)
-
 ---
 
 ## The Problem
